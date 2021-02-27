@@ -79,7 +79,7 @@ module.exports = [
 		abnormalities: [200701, 200700],
 		message: 'Adrenaline Rush {duration}'
 	},
-/*
+
 	// Adrenaline Rush  Expiring, notify at 6 seconds remaining
 	{
 		type: 'expiring',
@@ -95,54 +95,38 @@ module.exports = [
 		abnormalities: [200701, 200700],
 		message: 'Adrenaline Rush Ended'
 	},
-	// Mystic Shield Added (Thrall)
+/*
 	{
-		type: 'added',
+		type: 'Added',
 		target: 'Self',
-		abnormalities: [702001],
-		message: 'Mysitc Shield up'
+		abnormalities: [950064,950068],
+		message: 'Red/Orange Debuff Added'
 	},
-	// Priest Shield Added (Kaia)
+	
 	{
-		type: 'added',
+		type: 'Added',
 		target: 'Self',
-		abnormalities: [800300, 800302, 800303, 800304],
-		message: 'Priest Shield up.'
-	},
-	// Mystic Wrath Added
-	{
-		type: 'added',
-		target: 'Self',
-		abnormalities: [702004],
-		message: '{icon} {duration}'
-	},
-	// Priest Edict Added
-	{
-		type: 'added',
-		target: 'Self',
-		abnormalities: [805800],
-		message: '{icon} {duration}'
-	},
-
-	//Pet buff
-	{
-		type: 'expiring',
-		target: 'Self',
-		abnormalities: [13000, 13001, 13002, 13003, 13004, 13005, 13006, 13007, 13008, 13009, 13010, 13011, 13012, 13013, 13014, 13015, 13016, 13017, 13018, 13019, 13020, 13021, 13022, 13023, 13024, 13025, 13026, 13027, 13028, 13029, 13030, 13031, 13032, 13033, 13034, 13035, 13036, 13037],
-		message: 'Pet bond skill is about to expire.',
-		time_remaining: 5
+		abnormalities: [950065,950069],
+		message: 'Black Debuff Added'
 	},
 */
-
 	// Missing Battle Solution / Nostrum
-	{
+	/*{
 		type: 'MissingDuringCombat',
 		target: 'Self',
 		abnormalities: [4030, 4031, 4020, 4021],
 		message: 'Missing {icon}',
 		rewarn_timeout: 15
+	},*/
+
+	//Killing Grounds Unleash Eyes
+	{
+		type: 'AddedOrRefreshed',
+		target: 'PartyIncludingSelf',
+		abnormalities: [32060024, 32060026],
+		message: '{name} has {icon}'
 	},
-/*
+
 	// Vergos Aggro Debuff
    {
 		type: 'AddedOrRefreshed',
@@ -160,12 +144,60 @@ module.exports = [
 		message: '{name}\'s stacks expired'
 	},
 
-	// Bahaar Laser
+	 // Priest steroid  Added
+	 {
+		type: 'added',
+		target: 'Self',
+		abnormalities: [805803],
+		message: '{icon} {duration}'
+	},
+
+	// Mystic Wrath  Added
 	{
 		type: 'added',
 		target: 'Self',
-		abnormalities: 90442502,
-		message: 'LASER!'
+		abnormalities: [702004],
+		message: '{icon} {duration}'
 	},
-*/
+
+	// Kaia  Added
+	{
+		type: 'added',
+		target: 'Self',
+		abnormalities: [800300, 800302, 800303, 800304],
+		message: '{icon} on'
+	},
+	
+	// Mystic Shield  Added
+	{
+		type: 'added',
+		target: 'Self',
+		abnormalities: [702001],
+		message: '{icon} on'
+	},
+	
+	// Bahaar Laser
+    {
+		type: 'Added',
+		target: 'PartyIncludingSelf',
+		abnormalities: 90442502,
+		message: '{name} has {icon}'
+	},
+	
+	// Sea Stun
+    {
+		type: 'Added',
+		target: 'PartyIncludingSelf',
+		abnormalities: 30209101,
+		message: '{name} has {icon}'
+	},
+	
+	// Sea Fear
+    {
+		type: 'Added',
+		target: 'PartyIncludingSelf',
+		abnormalities: 30209102,
+		message: '{name} has {icon}'
+	},
+
 ]
