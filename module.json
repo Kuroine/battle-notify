@@ -2,7 +2,7 @@
     "disableAutoUpdate": false,
     "name": "battle-notify",
     "author": "K",
-    "description": "Description goes here.",
-    "servers": ["https://raw.githubusercontent.com/kuroine/battle-notify/master"],
+    "description": "battle-notify",
+    "servers": ["https://raw.githubusercontent.com/Kuroine/battle-notify/master/"],
     "supportUrl": "https://github.com/Kuroine/battle-notify/issues"
 }
