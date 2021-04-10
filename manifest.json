@@ -1,21 +1,66 @@
 {
     "files": {
         "README.md": "0610e675e5cbf55d7c392a397956b709297ea9f6423089d63c78a50d05f2863a",
-        "config/archer.js": "ad694fd064e983954a922b60ee700e3f2d1dd3e1ecc857875e1037769827b194",
-        "config/berserker.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/brawler.js": "0af0c21a24054308e1d834dda064951847124a902ecdd0fc49f9759a510f57dd",
-        "config/common.js": "b7496804f9e2637137b98ad3b5b8c51b6fe61b06e251757565adfd3cffbb6641",
-        "config/common_styling.js": "770525ad1014b6530629ef1a575e32126c56b8b2e3f2f7ea76aba3df7c99f43e",
-        "config/gunner.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/lancer.js": "079683843be8a2c2cfbe26c320fd94d0f4f687cc7490c15fb5abb96f8912a02d",
-        "config/mystic.js": "6cfdba794bc90c5d0113e256c0d01df8f454481f9e5a3916bdd09b2b9561e32a",
-        "config/ninja.js": "3164315f5636e74be4134cacdad3e22e8b0affe741c0d8762750bd7e307fac4b",
-        "config/priest.js": "160c1a8aacba72c957ccdc3e8b8eccc3f4461f41de37f4edb530a35e18dbc24f",
-        "config/reaper.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/slayer.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/sorcerer.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/valkyrie.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
-        "config/warrior.js": "5453f5d0b5329dcd65ced50d4521f8465b2b5f8fde8dd409327f77ad928b9069",
+        "config/archer.js": {
+            "overwrite": false,
+            "hash": "ad694fd064e983954a922b60ee700e3f2d1dd3e1ecc857875e1037769827b194"
+        },
+        "config/berserker.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/brawler.js": {
+            "overwrite": false,
+            "hash": "0af0c21a24054308e1d834dda064951847124a902ecdd0fc49f9759a510f57dd"
+        },
+        "config/common.js": {
+            "overwrite": false,
+            "hash": "b7496804f9e2637137b98ad3b5b8c51b6fe61b06e251757565adfd3cffbb6641"
+        },
+        "config/common_styling.js": {
+            "overwrite": false,
+            "hash": "770525ad1014b6530629ef1a575e32126c56b8b2e3f2f7ea76aba3df7c99f43e"
+        },
+        "config/gunner.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/lancer.js": {
+            "overwrite": false,
+            "hash": "079683843be8a2c2cfbe26c320fd94d0f4f687cc7490c15fb5abb96f8912a02d"
+        },
+        "config/mystic.js": {
+            "overwrite": false,
+            "hash": "6cfdba794bc90c5d0113e256c0d01df8f454481f9e5a3916bdd09b2b9561e32a"
+        },
+        "config/ninja.js": {
+            "overwrite": false,
+            "hash": "3164315f5636e74be4134cacdad3e22e8b0affe741c0d8762750bd7e307fac4b"
+        },
+        "config/priest.js": {
+            "overwrite": false,
+            "hash": "160c1a8aacba72c957ccdc3e8b8eccc3f4461f41de37f4edb530a35e18dbc24f"
+        },
+        "config/reaper.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/slayer.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/sorcerer.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/valkyrie.js": {
+            "overwrite": false,
+            "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
+        },
+        "config/warrior.js": {
+            "overwrite": false,
+            "hash": "5453f5d0b5329dcd65ced50d4521f8465b2b5f8fde8dd409327f77ad928b9069"
+        },
         "index.js": "ab0e13dde21c5d2d2a5f1bb06923330d34871cbacd586c5dbb81916be6063ac8",
         "lib/abnormal.js": "023e56bffbf372d8effc78eadea575bff08e3e9751235c16070cb7ee1efeb20c",
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
