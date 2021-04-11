@@ -62,21 +62,11 @@
             "hash": "5453f5d0b5329dcd65ced50d4521f8465b2b5f8fde8dd409327f77ad928b9069"
         },
         "index.js": "ab0e13dde21c5d2d2a5f1bb06923330d34871cbacd586c5dbb81916be6063ac8",
-        "lib/abnormal.js": {
-            "hash": "023e56bffbf372d8effc78eadea575bff08e3e9751235c16070cb7ee1efeb20c"
-        },
-        "lib/cooldown.js": {
-            "hash": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c"
-        },
-        "lib/entity.js": {
-            "hash": "a088d20a410855a76b17ea642eb3d452cc5962204ec4f59f0a6ca0632f0869b0"
-        },
-        "lib/notify.js": {
-            "hash": "0075eba56cf4bc5e040bf69ee0c2a4766944f7c1c3e9f7db70178188741262a9"
-        },
-        "lib/party.js": {
-            "hash": "6472d41f623a93f3a3d5e76e22a85f8ade8cdba978f2ba667b836a7c9d455798"
-        },
+        "lib/abnormal.js": "023e56bffbf372d8effc78eadea575bff08e3e9751235c16070cb7ee1efeb20c",
+        "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
+        "lib/entity.js": "a088d20a410855a76b17ea642eb3d452cc5962204ec4f59f0a6ca0632f0869b0",
+        "lib/notify.js": "0075eba56cf4bc5e040bf69ee0c2a4766944f7c1c3e9f7db70178188741262a9",
+        "lib/party.js": "6472d41f623a93f3a3d5e76e22a85f8ade8cdba978f2ba667b836a7c9d455798",
         "module.json": "778d53d5e5aa42e6af748d771808fee5b39862efaffdb5dab7713802d257938f",
         "previews/colors.jpg": {
             "overwrite": false,
@@ -107,7 +97,7 @@
         "S_EACH_SKILL_RESULT": [13,14],
         "S_LEAVE_PARTY": "event",
         "S_LEAVE_PARTY_MEMBER": 2,
-        "S_LOAD_TOPO": [3,"event"],
+        "S_LOAD_TOPO": ["event",3],
         "S_LOGIN": ["event",13,14],
         "S_NPC_STATUS": 2,
         "S_PARTY_MEMBER_LIST": [7,8],
